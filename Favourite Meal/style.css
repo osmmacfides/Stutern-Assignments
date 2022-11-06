@@ -1,0 +1,93 @@
+*{
+  padding: 0px 20px;
+  color: black;
+  margin-top: 0;
+
+}
+body {
+  background-color: black;
+
+}
+
+.food_name {
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+img{
+width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+}
+
+.container {
+  background-color: rgb(240, 237, 237);
+
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.food_image {
+  width: 250px;
+    height: 300px;
+    background-color: white;
+    margin: 15px 10px;
+    box-shadow: 7px 7px 7px black;
+    
+
+}
+  td,th {
+  border: 1px solid black;
+  width: 25%;
+  border-spacing: 0;
+}
+ table {
+  width:100%;
+  border-spacing: 0;
+}
+
+tr td {
+  text-align: center;
+}
+.food_ingredients{
+  margin: 20px 0;
+}
+ h3, h4 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+  
+
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.food_description {
+  text-align: center;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100px;
+    height: 1px;
+    margin: 10px
+  }
+}

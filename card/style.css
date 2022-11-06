@@ -1,0 +1,144 @@
+body {
+  margin: 250px 100px;
+  margin-left: 200px;
+}
+
+.wrapper {
+  width: fit-content ;
+
+}
+.title {
+  background-color: dodgerblue;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0 0 16px;
+  padding: 16px 32px 16px;
+
+}
+
+ h3{
+  margin-left: 20px;
+  margin: unset;
+
+}
+.content_container {
+  background-color: rgba(117, 195, 199, 0.408);
+  margin-top: 0 0 16px;
+  padding: 32px 32px 16px;
+   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.pro {
+  margin-top: 0px;
+}
+.auto {
+  width: auto;
+}
+.twenty {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(65, 58, 58);
+}
+.twenty_content {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 40px ;
+}
+
+
+span {
+  display: inline-block;
+ 
+}
+
+button {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+li:before{
+  
+    content: 'check';
+    font-family: 'Material Icons';
+    margin-right: 15px;
+    font-weight:bolder;
+    font-size: 10px;
+}
+strong {
+  background-color:rgb(180, 179, 179);
+  padding: 3px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  border-bottom: 1px solid dodgerblue; color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: lowercase !important;
+
+}
+
+a:hover {
+  cursor: pointer;
+  color: blue;
+
+
+}
+i:after {
+ 
+    content: 'arrow forward';
+    font-family: 'Material Icons';
+  position:relative;
+  right: 80px;
+  top: 5px;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+small:after{
+   content:'arrow right' ;
+  font-family: 'Material Icons';
+}
+
+.allplus>p {
+
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+.small_grey {
+  color: grey;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+.spanlink {
+  margin-right: 10px;
+}
+.ext {
+  border-bottom: 1px dotted black;
+}
+
+@media screen and (min-width: 600px) {
+  body{
+    width: 60%;
+  }
+}

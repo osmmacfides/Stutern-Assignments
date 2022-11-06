@@ -1,0 +1,35 @@
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:500;
+}
+thead tr td {
+  text-transform: uppercase;
+  background-color: rgba(128, 128, 128, 0.271);
+  text-align: center;
+  font-weight: bold;
+}
+#yellow {
+  background-color: rgb(243, 252, 68);
+}
+table tr td {
+  border: 1px solid black;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.serialnumber{
+  background-color:rgba(128, 128, 128, 0.271);
+  text-align: center;
+}
+.blue {
+  background-color: rgb(3, 3, 78);
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
