@@ -1,5 +1,5 @@
 body {
-  margin: 250px 100px;
+  margin: 10px 100px;
   margin-left: 200px;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 .content_container {
   background-color: rgba(117, 195, 199, 0.408);
-  margin-top: 0 0 16px;
+  margin: 0 0 16px;
   padding: 32px 32px 16px;
    border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -105,10 +105,6 @@ i:after {
   font-weight: bold;
 }
 
-small:after{
-   content:'arrow right' ;
-  font-family: 'Material Icons';
-}
 
 .allplus>p {
 
@@ -124,7 +120,7 @@ ul {
   padding: 0;
 }
 
-.small_grey {
+.small_grey, small {
   color: grey;
   font-size: small;
   text-transform: uppercase;
