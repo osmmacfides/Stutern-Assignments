@@ -1,1 +1,1 @@
-My airtable replicate card weblink: https://airtablecard.osmmacfides.repl.co
+My airtable replicate for the card weblink: https://airtablecard.osmmacfides.repl.co
