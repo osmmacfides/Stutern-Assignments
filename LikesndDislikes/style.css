@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.container .likeshead, .dislikeshead {
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  width: 150px;
+ margin: 2px auto;
+ padding: 7px;
+   border-radius: 5px 05px 05px 5px
+}
+
+.likesContent {
+  background-color: #fff;
+  padding: 15px;
+}
+.likesItem #likesContent1 {
+  color: green;
+  font-size: 1rem;
+
+}
+.likesItem #likesContent2 {
+   color: red;
+  font-size: 1.2rem;
+}
+.likesItem #likesContent3 {
+ color: blue;
+  font-size: 1.3rem;
+}
+.likesItem #likesContent4 {
+ color: cyan;
+  font-size: 1.4rem;
+}
+.likesItem #likesContent5 {
+ color: rgb(189, 12, 156);
+  font-size: 1.5rem;
+}
+.likesItem #likesContent6 {
+ color: rgb(7, 231, 7);
+  font-size: 1.6rem;
+}
+.likesItem #likesContent7 {
+ color: rgb(103, 103, 241);
+  font-size: 1.7rem;
+}
+.likesItem #likesContent8 {
+ color: rgb(1, 61, 20);
+  font-size: 1.8rem;
+}
+.likesItem #likesContent9 {
+ color: rgb(167, 59, 59);
+  font-size: 1.9rem;
+}
+.likesItem #likesContent10 {
+ color: rgb(236, 172, 10);
+  font-size: 1.9rem;
+}
+.likesItem #likesContent11 {
+ color: rgb(246, 16, 238);
+  font-size: 2.0rem;
+}
+
+.dislikesContent {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.dislikesContent:nth-child(1) {
+  background-color:rgb(236, 172, 10); 
+  font-style: italic;
+}
+.dislikesContent:nth-child(2) {
+  background-color:rgb(31, 241, 38); 
+  font-style: italic;
+}
+.dislikesContent:nth-child(3) {
+  background-color:rgb(253, 16, 83); 
+  font-style: initial;
+}
+.dislikesContent:nth-child(4) {
+  background-color:rgb(48, 242, 93); 
+  font-style: normal;
+}
+.dislikesContent:nth-child(5) {
+  background-color:rgb(45, 19, 244); 
+  font-style: normal;
+}
+.dislikesContent:nth-child(6) {
+  background-color:rgb(129, 5, 102); 
+  font-style: underline;
+}
+.dislikesContent:nth-child(7) {
+  background-color:rgb(87, 68, 20); 
+  font-weight:bolder;
+}
+.dislikesContent:nth-child(8) {
+  background-color:rgb(252, 68, 13); 
+  font-style:oblique ;
+}
+
+
+
